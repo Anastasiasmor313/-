@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+}
+.menu-nav {
+    width: calc(100% - 28%); /*Делаем ограничение по ширине блолка для аддаптивной верски (сейчас 1500px */
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.manu-nav-content a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #487751;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+}
+.manu-nav-content > ul {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    gap: 101px; 
+    justify-content: end; 
+    list-style-type: none; 
+    padding-left: 0;
+    margin-left: 0;
+}
+.menu-nav-logo img {
+    width: 156px;
+    height: 68px;
+}
+h1 {
+    color: #164F1F;
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+p {
+    font-size: 22px;
+    color: #487751;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+}
+h2{
+    color: #370820;
+    font-size: 22px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+h3{
+    font-size: 24px;
+    color: #164F1F;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+}
+.block{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: calc(100% - 28%);
+    justify-content: left;
+}
+.zagolovok_dostavka{
+    margin-top: 70px;
+}
+.panel img{
+    width: 1345px;
+}
+.panel{
+    margin-top: 110px;
+}
+.textbox_pyt {
+    display: flex;
+    align-items: flex-start;
+    gap: 53px;
+}
+.anketa, .yved, .phone, .oplata{
+    width: 300px;
+    text-align: center;
+}
+.block_meneger{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: calc(100% - 28%);
+    margin-top: 60px;
+}
+.meneger{
+    background-color: rgba(72, 119, 81, 0.47);
+    width: 630px;
+    height: 290px;
+    border-radius: 21px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.button_meneger > button{
+    width: 225px;
+    height: 44px;
+    border-radius: 21px;
+    background: none;
+    border: 2px solid #370820;
+}
+.button_meneger{
+    margin-top: 30px;
+}
+input{
+    background: none;
+    border: none;
+    border-bottom: 1px solid #66786A;
+    width: 236px;
+}
+h4{
+    font-size: 22px;
+    color: #ffffff;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+.input_box{
+    display: flex;
+    gap: 80px;
+}
+.left_input, .right_input{
+    width: 243px;
+}
